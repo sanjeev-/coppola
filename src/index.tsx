@@ -1,4 +1,4 @@
-import Flex from './Flex'
+import {Flex} from './components/Flex'
 import GlobalStyle from './GlobalStyle'
 
 export {

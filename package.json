@@ -1,6 +1,6 @@
 {
   "name": "coppola",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component library created by Sanjeev Sreetharan",
   "author": "sanjeev-",
   "license": "MIT",
@@ -12,10 +12,10 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepare": "run-s build",
-    "test": "run-s test:unit test:lint test:build",
+    "start": "npx styleguidist server",
+    "build": "npx styleguidist build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "test:build": "run-s build",
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
@@ -36,7 +36,6 @@
     "@types/react-dom": "^16.9.7",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -50,11 +49,13 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
+    "react-styleguidist": "^11.1.5",
     "typescript": "^3.7.5"
   },
   "files": [
@@ -62,6 +63,7 @@
   ],
   "dependencies": {
     "@types/styled-components": "^5.1.7",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
   }
 }
