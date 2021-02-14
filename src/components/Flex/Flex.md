@@ -12,17 +12,13 @@
     width='200px'
     alignItems='center'
     justifyContent='center'
-  >
-    Secondary flex color
-  </Flex>
+  ></Flex>
   <Flex
     tertiary
     height='50%'
     width='200px'
     alignItems='center'
     justifyContent='center'
-  >
-    Tertiary flex color
-  </Flex>
+  ></Flex>
 </Flex>
 ```
