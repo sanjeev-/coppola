@@ -62,6 +62,7 @@
     "dist"
   ],
   "dependencies": {
+    "@styled-system/theme-get": "^5.1.2",
     "@types/styled-components": "^5.1.7",
     "styled-components": "^5.2.1",
     "styled-system": "^5.1.5"
