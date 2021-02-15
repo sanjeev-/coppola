@@ -7,7 +7,6 @@ import './index.css'
 import { 
   space, 
   layout,  
-  color,
   typography,
   background, 
   border, 
@@ -26,8 +25,7 @@ import {
     fontWeight: 0,
   }
 
-const Text: React.FunctionComponent<TextProps> = styled.p`
-
+const Text: React.FunctionComponent<TextProps> = styled("p")<{primary: boolean, muted: boolean, secondary: boolean, accent: boolean, gradient: boolean}>`
 font-family: 'JosefinSans-Regular';
 ${props => props.primary && `
 color: ${theme.colors.grey[3]};

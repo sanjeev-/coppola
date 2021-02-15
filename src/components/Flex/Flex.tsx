@@ -4,7 +4,7 @@ import {theme} from '../../theme'
 import { space, layout, color, flexbox, grid, background, border, position, shadow } from 'styled-system'
 
 // theme is now fully typed blah blah
-const Box = styled.div`
+const Box = styled("div")<{primary: boolean, secondary: boolean, tertiary: boolean}>`
   ${space}
   ${layout}
   ${color}
@@ -14,6 +14,7 @@ const Box = styled.div`
   ${border}
   ${position}
   ${shadow}
+
   ${props => props.primary && `
   background-color: ${theme.colors.grey[0]};
 `}
