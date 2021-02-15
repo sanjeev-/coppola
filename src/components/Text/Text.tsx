@@ -17,12 +17,14 @@ import {
     color?: string
     fontSize?: number
     fontWeight?: number
+    lineHeight?: string | number
   }
 
   const defaultProps: TextProps = {
     color: theme.colors.grey[3],
-    fontSize: 2,
-    fontWeight: 0,
+    fontSize: 3,
+    lineHeight:"1.5em",
+    fontWeight: 275,
   }
 
 const Text: React.FunctionComponent<TextProps> = styled("p")<{primary: boolean, muted: boolean, secondary: boolean, accent: boolean, gradient: boolean}>`

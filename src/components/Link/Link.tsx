@@ -20,7 +20,7 @@ interface LinkProps {
 const defaultProps: LinkProps = {
   color: theme.colors.grey[3],
   fontSize: 3,
-  fontWeight: 100,
+  fontWeight: 400,
   transition: "color 0.2s, border-color 0.2s, opacity 0.2s",
 }
 
