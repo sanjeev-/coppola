@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'JosefinSans-Italic';
   src: local('JosefinSans-Italic'),
-    url('../../fonts/JosefinSans-Italic.ttf') format('truetype');
+    url('../fonts/JosefinSans-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'JosefinSans-Regular';
   src: local('JosefinSans-Regular'),
-    url('../../fonts/JosefinSans-Regular.ttf') format('truetype');
+    url('../fonts/JosefinSans-Regular.ttf') format('truetype');
 }

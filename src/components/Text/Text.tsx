@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {theme} from '../../theme'
-import './index.css'
+import '../../public/css/textStyles.css'
 
 import { 
   space, 
