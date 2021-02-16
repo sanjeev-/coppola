@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bed6731.chunk.css",
+    "main.js": "/build/main.328eec82.js",
+    "runtime-main.js": "/build/bundle.a7dce726.js",
+    "build/2.2645e282.js": "/build/2.2645e282.js",
+    "build/2.2645e282.js.LICENSE.txt": "/build/2.2645e282.js.LICENSE.txt",
+    "index.html": "/index.html",
+    "precache-manifest.48b467fbbc8db24facde58be926443b0.js": "/precache-manifest.48b467fbbc8db24facde58be926443b0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6bed6731.chunk.css.map": "/static/css/main.6bed6731.chunk.css.map",
+    "static/media/textStyles.css": "/static/media/JosefinSans-Regular.324a513c.ttf"
+  },
+  "entrypoints": [
+    "build/bundle.a7dce726.js",
+    "build/2.2645e282.js",
+    "static/css/main.6bed6731.chunk.css",
+    "build/main.328eec82.js"
+  ]
+}
